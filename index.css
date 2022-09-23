@@ -1,0 +1,57 @@
+@font-face {
+    font-family:'myfont';
+    src: url(./fonts/digital-7\ \(italic\).ttf);
+}
+.container{
+    max-width: 600px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    background-color: #075985;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+h3{
+    /* position: absolute; */
+   text-align: center;
+    width: 150px;
+    height: 36px;
+    font-weight: 700;
+    color:whitesmoke;
+    font-size: 50px;
+    font-family:'myfont',sans-serif;
+  
+}
+.clock{
+    /* position: absolute; */
+    border-radius: 20px;
+     width: 155px; 
+    height: 120px;
+    top: 125px;
+    left: 82px;
+    color: #F94F6D;
+    background-color: black;
+    line-height: 127px;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL';
+    font-weight:500 ;
+    font-size: 110px;
+    font-family: "myfont";
+
+} 
+button{
+    width: 49px;
+    height: 45px;
+    margin-top: 40;
+    border-radius: 5px;
+    background-color: #075985;
+    font-family: "myfont",sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
