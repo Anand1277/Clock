@@ -3,7 +3,8 @@
     src: url(./fonts/digital-7\ \(italic\).ttf);
 }
 .container{
-    max-width: 600px;
+    width: 600px;
+    max-width: 80%;
     height: 400px;
     display: flex;
     margin: auto;
